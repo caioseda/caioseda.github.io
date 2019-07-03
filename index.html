@@ -1,0 +1,78 @@
+    <!DOCTYPE hmtl>
+<hmtl>
+    <head>
+        <meta charset="UTF-8">
+        <title>Caio Seda</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <nav class="menu" id="menu">
+            <ul class="menu-list">
+                <li class="menu-list-item"><img src="img/profile_pic.jpg" alt="foto_Caio" class="perfil"></li>
+                <li class="menu-list-item"><a href="#topo">Início</a></li>
+                <li class="menu-list-item"><a href="#sobre">Sobre</a></li>
+                <li class="menu-list-item"><a href="#social">Redes Sociais</a></li>
+                <li class="menu-list-item"><a href="#site">Site</a></li>
+            </ul>
+        </nav>
+        <div class="content">  
+                <div class="video-block" id="topo">
+                    <video autoplay muted loop> 
+                        <source src="bg.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="txt-block" id="sobre">
+                    <div class="block-about">
+                            <h1 class="head">Sobre mim</h1>
+                            <div class="block-profile">
+                                    <img src="img/profile_pic.jpg" alt="foto_Caio" class="profile">
+                            </div>
+                            <div>
+                                <p class="paragraph">Meu nome é Caio Seda, sou estudante de Ciência da Computação pelo CEFET-RJ desde o segundo semestre de 2017. Tendo também interesses dentro das áreas de Motion graphics, eSports e produção musical. </p>
+                            </div>
+                            <div>
+                                <p class="paragraph" id="quote"> <q>Seja a mudança que você deseja ver no mundo</q></p>
+                                <p class="paragraph" id="autor">Mahatma Gandhi</p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="txt-block" id="social">
+                        <h1 class="head">Redes sociais</h1>
+                        <ul class="social-list">
+                            <li class="social-list-item"><a href="https://www.instagram.com/caioseda/"><img src="img/insta.png" alt="Instagram" class="social-img"></a></li>
+                            <li class="social-list-item"><a href="https://web.facebook.com/caio.seda"><img src="img/facebook.png" alt="Facebook" class="social-img"></a></li>
+                            <li class="social-list-item"><a href="https://open.spotify.com/user/caioseda"><img src="img/spotfy.png" alt="spotify" class="social-img"></a></li>
+                        </ul>
+                    </div>
+                    <div class="txt-block" id="site">
+                        <h1 class="head">Site</h1> 
+                        <div class="tabela"> 
+                                <table>
+                                        <tr>
+                                          <th>Elemento</th>
+                                          <th>Tecnologia</th> 
+                                        </tr>
+                                        <tr>
+                                          <td>Vídeo intro</td>
+                                          <td>Adobe After Effects</td> 
+                                        </tr>
+                                        <tr>
+                                          <td>Estrura do site</td>
+                                          <td>HTML + CSS + JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Imagens redes sociais</td>
+                                          <td>Adobe Photoshop</td>
+                                        </tr>
+                                      </table>
+                        </div>
+                        <div>
+                            <button id="roxo" onclick="document.getElementById('menu').style.backgroundColor='rgb(137, 48, 255, 0.5)'">Roxo</button>
+                            <button id="verde" onclick="document.getElementById('menu').style.backgroundColor='rgb(66, 244, 152, 0.5)'">Verde</button>
+                        </div>
+                    </div>
+        </div>
+    </body>
+</hmtl>

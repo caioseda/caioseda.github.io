@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+    background-color: #161616
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color:rgb(137, 48, 255, 0.5);
+    z-index: 1;
+    padding: 0 425px;
+}
+
+.menu-list{
+    list-style: none;  
+}
+
+.perfil{
+    width: 60px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.menu-list-item{
+    font-weight: 400;
+    display: inline-block;
+    float: left;
+    line-height: 90px;
+    padding: 0 30px;
+}
+
+.menu-list-item a{
+    display: block;
+    color:#ffffff
+}
+
+.txt-block{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.video-block{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-block video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.head{
+    width: 100%;
+    height: 50px;
+    font-weight: 400px;   
+}
+.block-about{
+    padding: 0 300px;
+    display: inl
+}
+
+.block-profile{
+    padding: 45px 0px;
+}
+
+.profile{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.paragraph{
+    padding: 0 200px;
+    text-align: left;
+}
+
+#social{
+    background-color: #ffffff;
+    color: #161616;
+    height: 200px;
+}
+
+.social-list{
+    list-style: none;
+}
+.social-list-item{
+    display: inline-block;
+    float: center;
+    line-height: 90px;
+    padding: 50px 0;
+}
+
+.social-img{
+    width: 50%
+}
+
+#quote{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 100px;
+}
+#autor{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.tabela{
+    padding: 100px;
+}
+
+table{
+    padding: 0 400px;
+    width: 100%;
+    border: 2 px solid white;
+}
+
+table, th, td{
+    text-align: center;
+    color: #ffffff;
+    border: 2 px solid white;
+}
+#roxo{
+  background-color:rgb(137, 48, 255);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#verde{
+    background-color: rgb(66, 244, 152);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
