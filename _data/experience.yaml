@@ -1,0 +1,27 @@
+job:
+  - title: Research Fellow
+    start_date: Aug 2025
+    end_date: 
+    company: Tecgraf Institute, PUC-Rio
+  
+  - title: Data Scientist
+    start_date: Aug 2021
+    end_date: Aug 2025
+    company: CashU
+
+  - title: Data Scientist Intern
+    start_date: Aug 2021
+    end_date: Aug 2019
+    company: BNDES
+
+education:
+  - title: MSc in Computer Science
+    start_date: Aug 2024
+    end_date: Jul 2026 (expected)
+    company: PUC-Rio
+  
+  - title: BSc in Computer Science
+    start_date: Aug 2017
+    end_date: Aug 2023
+    company: CEFET-RJ
+    note: "Undergraduate final project: Effects of changes in credit granting policy on the risk of default: a study using Targeted Maximum Likelihood"
